@@ -28,7 +28,7 @@ function Calculator() {
     <div className="calculator">
       <h1>React Calculator</h1>
       <input type="text" value={input} readOnly className="display" />
-      <p>Result: {result}</p>
+      <p> {result}</p>
       <div className="buttons">
         {buttons.map((btn) => (
           <button key={btn} onClick={() => handleClick(btn)} className="button">
